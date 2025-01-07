@@ -40,7 +40,7 @@ const Features = () => {
             <h3 className="w-[384px] h-[30px] text-center font-semibold text-[20px] leading-[30px] text-[#101828]">
               Share Team inboxes
             </h3>
-            <p className="text-[#475467] font-normal text-[16px] leading-[24px] text-center w-[384px] max-md:w-[100vw]">
+            <p className="text-[#475467] font-normal text-[16px] leading-[24px] text-center w-[384px] max-md:w-[100vw] max-md:px-2">
               Whether you have a team of 2 or 200, our shared team inboxes keep
               everyone on the same page and in the loop.
             </p>
@@ -59,7 +59,7 @@ const Features = () => {
             <h3 className="w-[384px] h-[30px] text-center font-semibold text-[20px] leading-[30px] text-[#101828]">
               Deliver instant answers
             </h3>
-            <p className="text-[#475467] font-normal text-[16px] leading-[24px] text-center w-[384px] max-md:w-[100vw]">
+            <p className="text-[#475467] font-normal text-[16px] leading-[24px] text-center w-[384px] max-md:w-[100vw] max-md:px-2">
               An all-in-one customer service platform that helps you balance
               everything your customers need to be happy.
             </p>
@@ -78,7 +78,7 @@ const Features = () => {
             <h3 className="w-[384px] h-[30px] text-center font-semibold text-[20px] leading-[30px] text-[#101828]">
               Manage your team with reports
             </h3>
-            <p className="text-[#475467] font-normal text-[16px] leading-[24px] text-center w-[384px] max-md:w-[100vw]">
+            <p className="text-[#475467] font-normal text-[16px] leading-[24px] text-center w-[384px] max-md:w-[100vw] max-md:px-2">
               Measure what matters with Untitled's easy-to-use reports. You can
               filter, export and drilldown on the data in a couple clicks.
             </p>
@@ -95,7 +95,7 @@ const Features = () => {
             <h3 className="w-[384px] h-[30px] text-center font-semibold text-[20px] leading-[30px] text-[#101828]">
               Connect with customers
             </h3>
-            <p className="text-[#475467] font-normal text-[16px] leading-[24px] text-center w-[384px] max-md:w-[100vw]">
+            <p className="text-[#475467] font-normal text-[16px] leading-[24px] text-center w-[384px] max-md:w-[100vw] max-md:px-2">
               Solve a problem or close a sale in real-time with chat. If no one
               is available, customers are seamlessly routed to email without
               confusion.
@@ -115,7 +115,7 @@ const Features = () => {
             <h3 className="w-[384px] h-[30px] text-center font-semibold text-[20px] leading-[30px] text-[#101828]">
               Connect the tools you already use
             </h3>
-            <p className="text-[#475467] font-normal text-[16px] leading-[24px] text-center w-[384px] max-md:w-[100vw]">
+            <p className="text-[#475467] font-normal text-[16px] leading-[24px] text-center w-[384px] max-md:w-[100vw] max-md:px-2">
               Explore 100+ integrations that make your day-to-day workflow more
               efficient and familiar.Plus, our extensive developer tools.
             </p>
@@ -130,7 +130,7 @@ const Features = () => {
             <h3 className="w-[384px] h-[30px] text-center font-semibold text-[20px] leading-[30px] text-[#101828]">
               Our people make the difference
             </h3>
-            <p className="text-[#475467] font-normal text-[16px] leading-[24px] text-center w-[384px] max-md:w-[100vw]">
+            <p className="text-[#475467] font-normal text-[16px] leading-[24px] text-center w-[384px] max-md:w-[100vw] max-md:px-2">
               We're an extension of your customer service team, and all of our
               resources are free. Chat to our friendly team 24/7 when you need
               help.

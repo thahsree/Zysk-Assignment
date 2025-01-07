@@ -2,7 +2,7 @@ import React from "react";
 import sysyphous from "../assets/Sysyphouus.svg";
 const Testimonials = () => {
   return (
-    <div className="flex flex-col gap-[64px] py-[96px] h-[552px] items-center border-b bg-[#F9FAFB] overflow-hidden">
+    <div className="flex flex-col gap-[64px] py-[96px] items-center border-b bg-[#F9FAFB] overflow-hidden">
       <div className="flex px-[32px] gap-[32px]">
         <div className="flex gap-[40px] justify-center">
           <div className="flex flex-col gap-[32px] w-[1216px] items-center">
@@ -13,7 +13,7 @@ const Testimonials = () => {
                 className="w-full h-full"
               />
             </div>
-            <h3 className="font-medium text-[#101828] text-center leading-[60px] text-[48px]">
+            <h3 className="font-medium text-[#101828] text-center leading-[60px] text-[48px] max-md:w-[100vw] max-md:text[30px]">
               We've been using Untitled to kick start every new project and
               can't imagine working without it.
             </h3>

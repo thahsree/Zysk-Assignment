@@ -3,34 +3,34 @@ import minus from "../assets/minus.svg";
 import plus from "../assets/plus.svg";
 const FrequentlyAsked = () => {
   return (
-    <div className="flex flex-col py-[96px] gap-[64px] items-center border-b overflow-hidden">
+    <div className="flex flex-col py-[96px] gap-[64px] items-center border-b overflow-hidden max-md:py-[64px]">
       <div className="flex gap-[32px] px-[32px]">
         <div className="flex gap-[48px]">
           <div className="flex flex-col gap-[20px]">
             <h3 className="text-center font-semibold text-[36px] leading-[44px] text-[#101828]">
               Frequently asked questions
             </h3>
-            <p className="text-normal text-[20px] text-[#475467] leading-[30px] text-center">
+            <p className="text-normal text-[20px] text-[#475467] leading-[30px] text-center max-md:w-[100vw] ">
               Everything you need to know about the product and billing.
             </p>
           </div>
         </div>
       </div>
       <div className="flex flex-col gap-[64px] px-[32px] w-[1280px] items-center">
-        <div className="w-[768px] flex flex-col gap-[32px] ">
+        <div className="w-[768px] flex flex-col gap-[32px] max-md:w-[100vw]">
           <div className="w-full">
-            <div className="flex gap-[24px] w-full">
+            <div className="flex gap-[24px] w-full max-md:px-[16px]">
               <div className=" flex flex-col gap-[8px]">
-                <h4 className="font-medium leading-[28px] text-[18px] text-[#101828] h-[28px]">
+                <h4 className="font-medium leading-[28px] text-[18px] text-[#101828]">
                   Is there a free trial avilable?
                 </h4>
-                <p className="text-[#475467] font-normal text-[16px] leading-[24px] h-[48px] w-[720px]">
+                <p className="text-[#475467] font-normal text-[16px] leading-[24px] w-[720px] max-md:w-[300px]">
                   Yes, you can try us for free for 30 days. If you want, we’ll
                   provide you with a free, personalized 30-minute onboarding
                   call to get you up and running as soon as possible.
                 </p>
               </div>
-              <div className="w-[24px] h-[26px] pt-[2px]">
+              <div className="w-[24px] h-[26px] pt-[2px] ">
                 <img
                   src={minus}
                   alt="minus icon"
@@ -41,7 +41,7 @@ const FrequentlyAsked = () => {
           </div>
 
           <div className="w-full border-t pt-[24px] border-[#EAECF0]">
-            <div className="w-full flex h-[28px]">
+            <div className="w-full flex max-md:px-[16px]">
               <div className="w-full flex gap-[24px]">
                 <h3 className="font-medium text-[18px] text-[#101828] leading-[28px]">
                   Can I change my plan later?
@@ -58,7 +58,7 @@ const FrequentlyAsked = () => {
           </div>
 
           <div className="w-full border-t pt-[24px] border-[#EAECF0]">
-            <div className="w-full flex h-[28px]">
+            <div className="w-full flex max-md:px-[16px]">
               <div className="w-full flex gap-[24px]">
                 <h3 className="font-medium text-[18px] text-[#101828] leading-[28px]">
                   What is your cancellation policy?
@@ -75,7 +75,7 @@ const FrequentlyAsked = () => {
           </div>
 
           <div className="w-full border-t pt-[24px] border-[#EAECF0]">
-            <div className="w-full flex h-[28px]">
+            <div className="w-full flex max-md:px-[16px]">
               <div className="w-full flex gap-[24px]">
                 <h3 className="font-medium text-[18px] text-[#101828] leading-[28px]">
                   Can other info be added to an invoice?
@@ -92,7 +92,7 @@ const FrequentlyAsked = () => {
           </div>
 
           <div className="w-full border-t pt-[24px] border-[#EAECF0]">
-            <div className="w-full flex h-[28px]">
+            <div className="w-full flex max-md:px-[16px]">
               <div className="w-full flex gap-[24px]">
                 <h3 className="font-medium text-[18px] text-[#101828] leading-[28px]">
                   How does billing work?
@@ -109,7 +109,7 @@ const FrequentlyAsked = () => {
           </div>
 
           <div className="w-full border-t pt-[24px] border-[#EAECF0]">
-            <div className="w-full flex h-[28px]">
+            <div className="w-full flex max-md:px-[16px]">
               <div className="w-full flex gap-[24px]">
                 <h3 className="font-medium text-[18px] text-[#101828] leading-[28px]">
                   How do I change my account email?
@@ -157,7 +157,7 @@ const FrequentlyAsked = () => {
             <h3 className="font-semibold text-[20px] leading-[30px] text-center text-[#101828] ">
               Still have questions?
             </h3>
-            <p className="font-normal text-[18px] text-center leading-[28px] text-[#475467]">
+            <p className="font-normal text-[18px] text-center leading-[28px] text-[#475467] max-md:w-[100vw]">
               Can’t find the answer you’re looking for? Please chat to our
               friendly team.
             </p>
