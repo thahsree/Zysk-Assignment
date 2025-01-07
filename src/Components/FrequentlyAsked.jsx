@@ -19,18 +19,18 @@ const FrequentlyAsked = () => {
       <div className="flex flex-col gap-[64px] px-[32px] w-[1280px] items-center">
         <div className="w-[768px] flex flex-col gap-[32px] max-md:w-[100vw]">
           <div className="w-full">
-            <div className="flex gap-[24px] w-full max-md:px-[16px]">
+            <div className="flex gap-[24px] w-full max-md:px-[16px] relative">
               <div className=" flex flex-col gap-[8px]">
                 <h4 className="font-medium leading-[28px] text-[18px] text-[#101828]">
                   Is there a free trial avilable?
                 </h4>
-                <p className="text-[#475467] font-normal text-[16px] leading-[24px] w-[720px] max-md:w-[300px]">
+                <p className="text-[#475467] font-normal text-[16px] leading-[24px] w-[720px] max-md:w-[310px]">
                   Yes, you can try us for free for 30 days. If you want, we’ll
                   provide you with a free, personalized 30-minute onboarding
                   call to get you up and running as soon as possible.
                 </p>
               </div>
-              <div className="w-[24px] h-[26px] pt-[2px] ">
+              <div className="w-[24px] h-[26px] pt-[2px] max-md:absolute top-[3%] right-3">
                 <img
                   src={minus}
                   alt="minus icon"
