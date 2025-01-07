@@ -163,7 +163,7 @@ const FrequentlyAsked = () => {
             </p>
           </div>
           <div className="w-[134px]">
-            <button className="bg-[#E63F3A] px-[20px] py-[12px] border rounded-[8px] font-semibold text-[16px] text-[#FFFFFF] text-nowrap">
+            <button className="bg-[#E63F3A] px-[20px] py-[12px] border rounded-[8px] font-semibold text-[16px] text-[#FFFFFF] text-nowrap min-w-[134px]">
               Get in touch
             </button>
           </div>

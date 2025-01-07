@@ -48,10 +48,10 @@ const blogPosts = [
 
 const BlogSection = () => {
   return (
-    <div className="flex flex-col py-[96px] gap-[64px] items-center border-b overflow-hidden">
-      <div className="flex gap-[32px] w-[1216px]">
-        <div className="w-[1216px] flex justify-between">
-          <div className="w-[768px] flex gap-[20px] flex-col">
+    <div className="flex flex-col py-[96px] gap-[64px] items-center border-b overflow-hidden max-md:py-[64px]">
+      <div className="flex gap-[32px] w-[1216px] max-md:w-[100vw]">
+        <div className="w-[1216px] flex justify-between max-md:w-[100vw]">
+          <div className="w-[768px] flex gap-[20px] flex-col max-md:w-[100vw] max-md:px-[16px] ">
             <div className="w-full flex flex-col gap-[12px]">
               <h6 className="font-semibold text-[16px] leading-[24px] text-[#E63f3A]">
                 Our blog
@@ -65,15 +65,15 @@ const BlogSection = () => {
               grow.
             </p>
           </div>
-          <div className="w-[148px]">
+          <div className="w-[148px] max-md:hidden">
             <button className="px-[20px] py-[12px] border rounded-[8px] w-[148px] bg-[#E63F3A] text-[#FFFFFF] font-semibold text-[16px] leading-[24px]">
               View all posts
             </button>
           </div>
         </div>
       </div>
-      <div className="px-32 w-[1280px] flex justify-center gap-[32px]">
-        <div className="w-[1216px] flex gap-[32px]">
+      <div className="px-32 w-[1280px] flex justify-center gap-[32px] max-md:w-[100vw]">
+        <div className="w-[1216px] flex gap-[32px] max-md:w-[100vw] max-md:flex-col">
           {blogPosts.map((post, index) => (
             <div className="flex w-[384px] gap-[24px] flex-col" key={index}>
               <div className="w-[384px] h-[240px]">
@@ -83,7 +83,7 @@ const BlogSection = () => {
                   className="object-cover w-full h-full"
                 />
               </div>
-              <div className="w-[384px] flex gap-[24px] flex-col">
+              <div className="w-[384px] flex gap-[24px] flex-col max-md:px-[12px]">
                 <div className="flex flex-col gap-[8px] w-full">
                   <h6 className="text-[#E63f3A] font-semibold text-[14px] leading-[20px]">
                     {post.category}
@@ -127,6 +127,12 @@ const BlogSection = () => {
             </div>
           ))}
         </div>
+      </div>
+
+      <div className="w-[269px] hidden max-md:flex items-center justify-center">
+        <button className="px-[20px] py-[12px] border rounded-[8px] w-full bg-[#E63F3A] text-[#FFFFFF] font-semibold text-[16px] leading-[24px]">
+          View all posts
+        </button>
       </div>
     </div>
   );

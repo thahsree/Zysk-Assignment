@@ -73,11 +73,14 @@ const Footer = () => {
   ];
   return (
     <div className="bg-[#FFFFFF] py-[64px] flex flex-col w-full gap-[64px] items-center overflow-hidden">
-      <div className="px-[32px] flex gap-[48px] w-[1280px]">
-        <div className="flex gap-[32px] w-[1216px] item-center ">
+      <div className="px-[32px] flex gap-[48px] w-[1280px] max-md:w-[100vw]">
+        <div className="flex gap-[32px] w-[1216px] items-center flex-wrap max-md:w-[100vw]  ">
           {/* MAPING */}
           {data.map((item, i) => (
-            <div key={i} className="w-[176px] flex flex-col gap-[16px]">
+            <div
+              key={i}
+              className="w-[176px] flex flex-col gap-[16px] max-md:w-[150px]"
+            >
               <h6 className="text-[#667085] font-semibold text-[14px] leading-[20px]">
                 {item.heading}
               </h6>
@@ -105,8 +108,8 @@ const Footer = () => {
         </div>
       </div>
 
-      <div className="flex gap-[32px] px-[32px] w-[1280px]">
-        <div className="flex justify-between w-[1216px] pt-[32px] border-t border-[#EAECF0]">
+      <div className="flex gap-[32px] px-[32px] w-[1280px] max-md:w-[100vw] max-md:flex-col">
+        <div className="flex justify-between w-[1216px] pt-[32px] border-t border-[#EAECF0] max-md:w-full max-md:flex-col max-md:gap-7">
           <div className="w-[84.62px] h-[32px] relative">
             <div className="w-[42.305px] h-[23.62px] top-[10.2px] absolute left-0">
               <img src={zy} alt="logo letter" className="w-full h-full" />
