@@ -7,7 +7,7 @@ import message from "../assets/messagIcon.svg";
 import smile from "../assets/smile.svg";
 const Features = () => {
   return (
-    <div className="w- flex py-[96px] gap-[64px] h-[836px] border-b items-center flex-col">
+    <div className="w- flex py-[96px] gap-[64px] h-[836px] items-center flex-col">
       <div className="px-[32px] flex gap-[32px] h-[160px] justify-center">
         <div className="flex gap-[48px] h-[160px] w-[1216px]  justify-center">
           <div className="w-[768px] h-[160px] flex gap-[20px] flex-col items-center">

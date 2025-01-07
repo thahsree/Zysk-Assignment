@@ -2,7 +2,7 @@ import React from "react";
 import sysyphous from "../assets/Sysyphouus.svg";
 const Testimonials = () => {
   return (
-    <div className="flex flex-col gap-[64px] py-[96px] h-[552px] items-center border-b">
+    <div className="flex flex-col gap-[64px] py-[96px] h-[552px] items-center border-b bg-[#F9FAFB]">
       <div className="flex px-[32px] gap-[32px]">
         <div className="flex gap-[40px] justify-center">
           <div className="flex flex-col gap-[32px] w-[1216px] items-center">
@@ -30,7 +30,7 @@ const Testimonials = () => {
                   Candice Wu
                 </h4>
                 <p className="text-[#475467] font-normal text-center leading-[24px] text-[16px]">
-                  Product Manager, Sysyphus
+                  Product Manager, Sisyphus
                 </p>
               </div>
             </div>

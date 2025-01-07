@@ -1,16 +1,19 @@
 import React from "react";
 import {
+  BlogSection,
   Features,
+  Footer,
   FrequentlyAsked,
   HeroSection,
   Navbar,
   Social,
   Testimonials,
 } from "./Components";
+import CTAsection from "./Components/CTAsection";
 
 const App = () => {
   return (
-    <div className="flex flex-col">
+    <>
       <Navbar />
       <HeroSection />
       <div className="relative w-full min-h-[296px]">
@@ -19,7 +22,10 @@ const App = () => {
       <Features />
       <Testimonials />
       <FrequentlyAsked />
-    </div>
+      <BlogSection />
+      <CTAsection />
+      <Footer />
+    </>
   );
 };
 
