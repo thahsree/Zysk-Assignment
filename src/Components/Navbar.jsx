@@ -1,5 +1,5 @@
 import React from "react";
-import arrowDown from "../assets/arrowDown.svg";
+import arrowDown from "../assets/arrowdown.svg";
 import k from "../assets/k.svg";
 import s from "../assets/s.svg";
 import zy from "../assets/zy.svg";
