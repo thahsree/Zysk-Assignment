@@ -6,10 +6,10 @@ import s from "../assets/s.svg";
 import zy from "../assets/zy.svg";
 const Navbar = () => {
   return (
-    <div className="px-32 h-[80px] w-full border-b flex items-center justify-between max-sm:px-[12px]">
+    <div className="px-32 h-[80px] w-full border-b flex items-center justify-between max-md:px-[12px]">
       <div className="flex gap-[40px]">
         {/* logo */}
-        <div className="h-[32px] w-[105px] flex relative max-sm:w-[84.61px]">
+        <div className="h-[32px] w-[105px] flex relative max-md:w-[84.61px]">
           <div className="w-[42.305px] h-full absolute left-0">
             <img src={zy} alt="logo letter" className="w-full h-full" />
           </div>
@@ -46,7 +46,7 @@ const Navbar = () => {
 
       {/* hamburger */}
 
-      <div className="w-[40px] h-[40px]">
+      <div className="w-[40px] h-[40px] hidden max-md:flex">
         <img src={ham} alt="ham-burger" className="w-full h-full" />
       </div>
     </div>

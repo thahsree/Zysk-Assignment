@@ -2,7 +2,7 @@ import React from "react";
 import sysyphous from "../assets/Sysyphouus.svg";
 const Testimonials = () => {
   return (
-    <div className="flex flex-col gap-[64px] py-[96px] h-[552px] items-center border-b bg-[#F9FAFB]">
+    <div className="flex flex-col gap-[64px] py-[96px] h-[552px] items-center border-b bg-[#F9FAFB] overflow-hidden">
       <div className="flex px-[32px] gap-[32px]">
         <div className="flex gap-[40px] justify-center">
           <div className="flex flex-col gap-[32px] w-[1216px] items-center">

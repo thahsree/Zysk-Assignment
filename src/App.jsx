@@ -16,7 +16,7 @@ const App = () => {
     <>
       <Navbar />
       <HeroSection />
-      <div className="relative w-full min-h-[296px]">
+      <div className="relative w-full min-h-[296px] overflow-hidden">
         <Social />
       </div>
       <Features />

@@ -3,7 +3,7 @@ import minus from "../assets/minus.svg";
 import plus from "../assets/plus.svg";
 const FrequentlyAsked = () => {
   return (
-    <div className="flex flex-col py-[96px] gap-[64px] items-center border-b">
+    <div className="flex flex-col py-[96px] gap-[64px] items-center border-b overflow-hidden">
       <div className="flex gap-[32px] px-[32px]">
         <div className="flex gap-[48px]">
           <div className="flex flex-col gap-[20px]">

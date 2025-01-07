@@ -72,7 +72,7 @@ const Footer = () => {
     },
   ];
   return (
-    <div className="bg-[#FFFFFF] py-[64px] flex flex-col w-full gap-[64px] items-center">
+    <div className="bg-[#FFFFFF] py-[64px] flex flex-col w-full gap-[64px] items-center overflow-hidden">
       <div className="px-[32px] flex gap-[48px] w-[1280px]">
         <div className="flex gap-[32px] w-[1216px] item-center ">
           {/* MAPING */}

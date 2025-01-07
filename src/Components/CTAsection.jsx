@@ -2,7 +2,7 @@ import React from "react";
 
 const CTAsection = () => {
   return (
-    <div className="flex gap-[64px] py-[96px] w-[1440px] justify-center bg-[#F9FAFB]">
+    <div className="flex gap-[64px] py-[96px] w-[1440px] justify-center bg-[#F9FAFB] overflow-hidden">
       <div className="w-[1280px] px-[32px] flex gap-[32px] justify-center">
         <div className="w-full flex gap-[40px] flex-col items-center">
           <div className="flex flex-col gap-[20px] w-[768px]">
