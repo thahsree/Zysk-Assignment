@@ -39,7 +39,7 @@ const HeroSection = () => {
           </div>
 
           <div className="w-full flex gap-[12px] justify-center max-md:flex-col max-md:h-[108px]">
-            <button className="border py-[12px] px-[20px] border-[#D0D5DD] rounded-full font-semibold text-[16px] text-[#344054] flex gap-[8px] items-center">
+            <button className="border py-[12px] px-[20px] border-[#D0D5DD] rounded-full font-semibold text-[16px] text-[#344054] flex gap-[8px] items-center justify-center">
               <img src={play} alt="play" className="w-[20px] h-[20px]" />
               Demo
             </button>
@@ -50,8 +50,8 @@ const HeroSection = () => {
         </div>
       </div>
 
-      <div className="px-[32px] flex gap-[32px] w-full justify-center max-md:px-[16px]">
-        <div className="h-[560px] border-l-[8px] border-t-[8px] border-r-[8px] border-[#101828] rounded-[20px] w-full max-w-[100%] max-md:h-[194px]">
+      <div className="w-[1280px] px-[32px] flex gap-[32px] max-md:w-full justify-center max-md:px-[16px]">
+        <div className="h-[560px] border-l-[8px] border-t-[8px] border-r-[8px] max-md:border-b-[8px] border-[#101828] rounded-[20px] w-full max-w-[100%] max-md:h-[194px]">
           <img
             src={screen}
             alt="screen mockup"
